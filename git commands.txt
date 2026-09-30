@@ -5,3 +5,8 @@ git remote add origin
 git add .
 git commit -m ""
 git push -u origin master
+
+updating commands
+git add .
+git commit -m "updating commit"
+git push

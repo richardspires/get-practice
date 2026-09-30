@@ -6,7 +6,7 @@ git add .
 git commit -m ""
 git push -u origin master
 
-updating commands
+updating commands:
 git add .
 git commit -m "updating commit"
 git push

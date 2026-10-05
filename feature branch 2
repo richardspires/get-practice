@@ -1,0 +1,11 @@
+git checkout master
+git pull origin master
+git checkout -b feature/branch-2
+git add .
+git commit -m ""
+git push -u origin feature/branch-2
+go to github
+open pull and compare
+click pull
+merge
+commit

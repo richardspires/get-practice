@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(25, 156, 65);
+}
+
+h3{
+    font-weight: 200;
+}
+
+.nav-header{
+    border: 5px solid black;
+}

@@ -9,6 +9,9 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 25px 25px;
 }
 
 h1, h3, h5{
@@ -27,6 +30,11 @@ h3{
     font-size: x-large;
 }
 
+#heading{
+    background-color: aqua;
+    text-align: center;
+}
+
 .diff-hobbies{
     border: .5px dotted black;
     border-radius: 5px 2.5px;
@@ -43,8 +51,13 @@ h3{
 p{
     background-color: blue;
     background-image: url(./images/Screenshot_14-10-2026_17402_blenderartists.org.jpeg);
+    font-weight: bolder;
 }
  
+.para{
+    color: antiquewhite;
+}
+
 li{
     text-shadow: .5rem;
     color: lightgreen;
@@ -54,7 +67,23 @@ li{
 }
 
 .hobbie-img{
-    display: flex;
-    justify-content: center;
     text-align: center;
+    margin: auto;
+    padding: 0%;
+}
+
+#box1{
+    width: 200px;
+    padding: 200px;
+    background-color: aqua;
+    margin: 30px;
+    border: 2px solid black;
+}
+
+#box2{
+    width: 200px;
+    padding: 200px;
+    background-color: blue;
+    margin: 30px;
+    border: 2px dashed;
 }
